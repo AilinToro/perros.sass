@@ -1,0 +1,23 @@
+.header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    &__logo{
+        margin-left: 1rem;
+    }
+
+    &__ul{
+        display: flex;
+        list-style: none;
+        li{
+            margin: 1rem;
+            a{
+                color:blue;
+                text-decoration: none;
+            }
+        }
+    }
+       
+    
+}

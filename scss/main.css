@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.header__logo {
+  margin-left: 1rem;
+}
+.header__ul {
+  display: flex;
+  list-style: none;
+}
+.header__ul li {
+  margin: 1rem;
+}
+.header__ul li a {
+  color: blue;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
